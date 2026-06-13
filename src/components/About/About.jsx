@@ -5,9 +5,9 @@ export default function About() {
   return (
     <div
       id="About"
-      className="bg-PrimaryBackground px-20 min-h-[100vh] flex  gap-10 justify-center items-center"
+      className="bg-PrimaryBackground px-20 min-h-[100vh] flex  gap-10 justify-center items-center max-lg:flex-col  max-lg:py-10"
     >
-      <div className=" w-[60%] px-3 ">
+      <div className=" w-[60%] px-3  max-lg:w-full">
         <div className="">
           <h2 className="font-bold text-5xl mb-3">
             About <span className="text-PrimaryColor text-6xl">ME</span>

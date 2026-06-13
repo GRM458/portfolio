@@ -5,15 +5,15 @@ export default function Home() {
   return (
     <div
       id="Home"
-      className="bg-white px-25 min-h-[100vh] flex  gap-10 justify-center items-center"
+      className="bg-white px-25 min-h-screen flex gap-10 justify-center items-center max-lg:flex-col  max-lg:py-10"
     >
-      <div className=" h-[400px] w-[400px] bg-red-50 rounded-full flex overflow-hidden object-contains">
+      <div className="min-h-100 w-100 bg-red-50 rounded-full flex overflow-hidden object-contains max-lg:w-full">
         <img
           src="https://cdn.creativefabrica.com/2021/06/14/Software-Developer-Flat-Icon-Graphics-13375448-1.jpg"
           alt=""
         />
       </div>
-      <div className=" w-[60%] px-3 ">
+      <div className=" w-[60%] px-3  max-lg:w-full ">
         <div className="">
           <h2 className="font-bold text-4xl mb-3">Hello, Myself</h2>
           <h1 className="font-bold text-6xl mb-3">Ghulam Rasool</h1>
