@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Input from "./input";
+import Input from "./Input";
 import Button from "../utlity Components/Button";
 export default function Contact() {
   const [FromData, setFromData] = useState({
