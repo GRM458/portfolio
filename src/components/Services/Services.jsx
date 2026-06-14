@@ -10,7 +10,7 @@ export default function Services() {
       <div className="text-7xl font-bold">
         My <span className="text-PrimaryColor">Services</span>
       </div>
-      <div className="flex gap-10 flex-wrap justify-around overflow-auto max-lg:flex-col items-center">
+      <div className="flex gap-10 flex-wrap justify-around max-lg:flex-col items-center">
         <ServiceCard
           title={"Web Development"}
           para={
