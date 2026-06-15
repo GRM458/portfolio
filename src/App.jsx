@@ -7,6 +7,7 @@ import Projects from "./components/Projects/Projects";
 import Contact from "./components/Contact/Contact";
 import { Link } from "react-router";
 import { BrowserRouter } from "react-router";
+import { createPortal } from "react-dom";
 function App() {
   return (
     <>

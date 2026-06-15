@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Input from "./input";
+import Input from "./input.jsx";
 import Button from "../utlity Components/Button";
 export default function Contact() {
   const [FromData, setFromData] = useState({
@@ -17,7 +17,10 @@ export default function Contact() {
       id="Contact"
     >
       <h1 className="text-6xl text-PrimaryColor">Contact Me</h1>
-      <form action="submit" className="flex flex-col gap-4 justify-center items-center">
+      <form
+        action="submit"
+        className="flex flex-col gap-4 justify-center items-center"
+      >
         <div className="flex gap-3">
           <Input
             placeholder={"Full Name"}
@@ -54,7 +57,7 @@ export default function Contact() {
           <input className="border-2 border-PrimaryColor px-3 py-2 rounded-md font-normal w-176 h-50" />
         </div>
         <div>
-          <Button text={"Send message"}/>
+          <Button text={"Send message"} />
         </div>
       </form>
     </div>
